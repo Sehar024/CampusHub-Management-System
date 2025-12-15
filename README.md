@@ -53,19 +53,15 @@ Pre-built views for reporting:
 Example function:
 ```sql
 calculate_gpa(student_id)
-
 Automatically calculates a student’s GPA.
 
 ### ✔️ **Triggers**
-Real-life trigger automation:
+- Real-life trigger automation:
+- Update student's total credits when grade added
+- Prevent attendance on weekends
+- Log changes to fees table
 
-Update student's total credits when grade added
-
-Prevent attendance on weekends
-
-Log changes to fees table
-
-✔️ Transactions (Concept Included)
+### ✔️ **Transactions (Concept Included) **
 
 Handles rollback when:
 
