@@ -51,7 +51,7 @@ Pre-built views for reporting:
 
 ### ✔️ **Functions**
 Example function:
-```sql
+sql
 calculate_gpa(student_id)
 Automatically calculates a student’s GPA.
 
