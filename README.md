@@ -61,12 +61,10 @@ Automatically calculates a student’s GPA.
 - Prevent attendance on weekends
 - Log changes to fees table
 
-### ✔️ **Transactions (Concept Included) **
+### ✔️ **Transactions (Concept Included)**
 
 Handles rollback when:
-
 Course capacity is full
-
 Hostel room is not available
 
 📂 Directory Structure
@@ -75,70 +73,46 @@ Hostel room is not available
 │── CampusHub.sql        # Full project SQL script
 └── sample_data.md       # (Optional) Sample data explanation
 
-🛠️ Technologies Used
+### 🛠️**Technologies Used**
 
-PostgreSQL 14+
+- PostgreSQL 14+
+- SQL / PLpgSQL
+- Relational Database Design (RDBMS)
+- Constraints & Referential Integrity
+- Functions, Triggers, Views
+- Indexing & Optimization
 
-SQL / PLpgSQL
+📥 **How to Use**
 
-Relational Database Design (RDBMS)
+- Clone this repository:
+     git clone https://github.com/yourusername/CampusHub-PostgreSQL.git
+- Open PostgreSQL or pgAdmin.
+- Import and run the SQL script:
+     \i '/path/to/CampusHub.sql'
+- Database will be created with all tables, views, functions, and triggers.
 
-Constraints & Referential Integrity
-
-Functions, Triggers, Views
-
-Indexing & Optimization
-
-📥 How to Use
-
-Clone this repository:
-
-git clone https://github.com/yourusername/CampusHub-PostgreSQL.git
-
-
-Open PostgreSQL or pgAdmin.
-
-Import and run the SQL script:
-
-\i '/path/to/CampusHub.sql'
-
-
-Database will be created with all tables, views, functions, and triggers.
-
-🎯 Purpose of This Project
-
+🎯 **Purpose of This Project**
 This project is designed for:
+- Students learning SQL
+- Developers improving PostgreSQL skills
+- Fiverr / Upwork freelancers showcasing database skills
+- University / College DBMS final projects
+- GitHub portfolio enhancement
 
-Students learning SQL
+💡 **Future Improvements**
+- Add API using Node.js / Python
+- Add front-end admin dashboard
+- Add more advanced triggers
+- Add analytics dashboard
 
-Developers improving PostgreSQL skills
+🤝 **Contributing**
+    Feel free to fork this project and submit a pull request.
 
-Fiverr / Upwork freelancers showcasing database skills
+⭐ **Support**
+    If this project helped you, don’t forget to star the repository ⭐ on GitHub!
 
-University / College DBMS final projects
+📧 **Contact**
+    For help or customization:
+    itxsehar67@gmail.com
 
-GitHub portfolio enhancement
-
-💡 Future Improvements (Optional)
-
-Add API using Node.js / Python
-
-Add front-end admin dashboard
-
-Add more advanced triggers
-
-Add analytics dashboard
-
-🤝 Contributing
-
-Feel free to fork this project and submit a pull request.
-
-⭐ Support
-
-If this project helped you, don’t forget to star the repository ⭐ on GitHub!
-
-📧 Contact
-For help or customization:
-itxsehar67@gmail.com
-
-             --------
+             ----Mabe by Sehar----
